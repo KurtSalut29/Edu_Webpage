@@ -22,15 +22,15 @@ export const members: Member[] = [
   {
     id: 1,
     slug: 'angelyn-tangcay',
-    name: 'Angelyn Tangcay',
+    name: 'Angelyn Talacay',
     role: 'Founder & Environmental Advocate',
     photo: '/images/Angelyn_Tangcay.png',
     business: {
-      name: 'Protect Our Planet, Rise as One',
-      logo: '/images/Angelyn_Tangkay_Logo.png',
+      name: 'Sustaining Tomorrow, Today',
+      logo: '/images/Angelyn_Talacay_Logo.png',
       description:
-        'Protect Our Planet, Rise as One is a community-driven environmental advocacy initiative dedicated to uniting people in the fight for a cleaner, greener Earth. Through education, outreach, and grassroots action, the movement empowers individuals and communities to take meaningful steps toward sustainability.\n\nFrom local clean-up drives to awareness campaigns and sustainable living workshops, every effort is rooted in the belief that collective action creates lasting change. Together, we rise — for the planet, for each other, and for the generations that follow.',
-      poster: '/images/Angelyn_Tangkay_Poster.jpg',
+        'Sustaining Tomorrow, Today is a community-driven environmental advocacy initiative dedicated to uniting people in the fight for a cleaner, greener Earth. Through education, outreach, and grassroots action, the movement empowers individuals and communities to take meaningful steps toward sustainability.\n\nFrom local clean-up drives to awareness campaigns and sustainable living workshops, every effort is rooted in the belief that collective action creates lasting change. Together, we rise — for the planet, for each other, and for the generations that follow.',
+      poster: '/images/Angelyn_Talacay_Poster.jpg',
       mission:
         'To unite communities in raising awareness and taking action to protect and preserve our environment, promoting sustainable practices for the well-being of present and future generations.',
       vision:
