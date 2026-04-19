@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Venture Collective — Group Portfolio",
+  title: "Team Nature Works Collective — Group Portfolio",
   description: "A showcase of five entrepreneurs and their businesses.",
 };
 

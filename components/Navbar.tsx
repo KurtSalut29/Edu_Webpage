@@ -31,10 +31,10 @@ export default function Navbar() {
           >
             {/* Logo mark */}
             <div className="w-7 h-7 rounded-lg bg-gold/15 border border-gold/30 flex items-center justify-center group-hover:bg-gold/25 transition-colors">
-              <span className="font-display text-gold text-xs font-bold">V</span>
+              <span className="font-display text-gold text-xs font-bold">T</span>
             </div>
             <span className="font-display text-white font-semibold text-base tracking-wide group-hover:text-gold transition-colors">
-              Venture{' '}
+              Team Nature Works{' '}
               <span className="text-gold">Collective</span>
             </span>
           </Link>

@@ -53,7 +53,7 @@ function HeroSection() {
           {/* Heading */}
           <motion.h1 variants={fadeInUp}
             className="font-display text-5xl sm:text-7xl md:text-8xl font-bold text-white leading-[1.04] tracking-tight">
-            Venture<br />
+            Team Nature Works<br />
             <span className="text-shimmer">Collective</span>
           </motion.h1>
 

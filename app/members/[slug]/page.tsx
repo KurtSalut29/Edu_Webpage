@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const member = members.find((m) => m.slug === slug);
   if (!member) return { title: 'Not Found' };
   return {
-    title: `${member.business.name} — Venture Collective`,
+    title: `${member.business.name} — Team Nature Works Collective`,
     description: member.business.description.split('\n')[0],
   };
 }

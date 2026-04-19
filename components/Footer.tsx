@@ -20,10 +20,10 @@ export default function Footer() {
             {/* Logo mark + name */}
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-gold/15 border border-gold/30 flex items-center justify-center">
-                <span className="font-display text-gold font-bold">V</span>
+                <span className="font-display text-gold font-bold">T</span>
               </div>
               <span className="font-display text-gold text-xl font-semibold tracking-wide">
-                Venture Collective
+                Team Nature Works Collective
               </span>
             </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="w-16 h-px bg-gold/30" />
 
             <p className="text-white/30 text-xs">
-              &copy; {currentYear} Venture Collective. All rights reserved.
+              &copy; {currentYear} Team Nature Works Collective. All rights reserved.
             </p>
           </div>
 
