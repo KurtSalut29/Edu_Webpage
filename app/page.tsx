@@ -275,11 +275,6 @@ export default function HomePage() {
       <HeroSection />
       <AboutSection />
       <MembersGridSection />
-      <div className="py-6 border-t border-white/8 flex flex-col items-center gap-2 text-center bg-[#060D24]/80">
-        <p className="text-white/50 text-sm font-semibold">Team Nature Works Collective</p>
-        <p className="text-white/30 text-xs tracking-widest uppercase">BTLED</p>
-        <p className="text-white/25 text-xs">SUBMITTED TO: MR. TITO AMERITO CUSTODIO</p>
-      </div>
     </main>
   );
 }
