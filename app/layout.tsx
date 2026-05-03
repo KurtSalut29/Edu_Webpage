@@ -39,7 +39,7 @@ export default function RootLayout({
         {/* All page content sits above the canvas */}
         <div className="relative z-10 flex flex-col min-h-full">
           <Navbar />
-          {children}
+          <div className="flex-1">{children}</div>
           <Footer />
         </div>
       </body>

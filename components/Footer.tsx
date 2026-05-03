@@ -1,8 +1,19 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { members } from '@/data/members';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const pathname = usePathname();
+
+  const memberSlug = pathname.startsWith('/members/')
+    ? pathname.split('/members/')[1]
+    : null;
+  const currentMember = memberSlug
+    ? members.find((m) => m.slug === memberSlug)
+    : null;
 
   return (
     <footer className="relative bg-[#060D24]/80 backdrop-blur-sm overflow-hidden">
@@ -83,16 +94,24 @@ export default function Footer() {
             </nav>
           </div>
         </div>
+      </div>
 
-        {/* Bottom bar */}
-        <div className="mt-14 pt-6 border-t border-white/8 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-white/25 text-xs">
-            Built with Next.js, Tailwind CSS &amp; Framer Motion
-          </p>
-          <p className="text-white/25 text-xs">
-            Group Academic Portfolio · {currentYear}
-          </p>
-        </div>
+      {/* Bottom bar */}
+      <div className="border-t border-white/8 py-6 flex flex-col items-center gap-2 text-center">
+        {currentMember ? (
+          <>
+            <p className="text-white/50 text-sm">This project was made by <span className="text-white/80 font-semibold">{currentMember.name}</span></p>
+            <p className="text-white/30 text-xs tracking-widest uppercase">BTLED</p>
+            <p className="text-white/25 text-xs">Subject: TEC 226</p>
+            <p className="text-white/25 text-xs">Submitted to: Mr. Tito Amerito Custodio</p>
+          </>
+        ) : (
+          <>
+            <p className="text-white/50 text-sm font-semibold">Team Nature Works Collective</p>
+            <p className="text-white/30 text-xs tracking-widest uppercase">BTLED</p>
+            <p className="text-white/25 text-xs">Submitted to: Mr. Tito Amerito Custodio</p>
+          </>
+        )}
       </div>
     </footer>
   );

@@ -163,6 +163,7 @@ export default async function MemberPage({ params }: { params: Promise<{ slug: s
           </div>
         </div>
       </section>
+
     </main>
   );
 }
